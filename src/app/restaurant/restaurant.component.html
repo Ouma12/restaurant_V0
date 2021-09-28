@@ -1,0 +1,24 @@
+<!--section principale-->
+<section class="main">
+<div class="resaturant">
+    <div *ngFor="let restaurant of restaurants;let i =index">
+    <div class="Card">
+        <img src="{{restaurant.images}}">
+        <div class="card-detail">
+            <span class="title">{{restaurant.name}}</span>
+            <button class="button2 " type="submit">
+                <span>Emporter </span><span><img class="img1 img-fluid img-thumbnail "src="../../assets/Imaaage.jpg" ></span></button>
+            <button class="button1" type="submit">
+                <span>Livraison </span><span><img class="img1 img-fluid img-thumbnail" src="../../assets/verification.jpg" ></span></button>
+                
+        </div>
+        <div class="restaurant_card">
+            <p> {{restaurant.paragraph}}</p>
+            <p>{{restaurant.content}}</p>
+            <p class="delivery-items">{{restaurant.location}}</p>
+               
+        </div>
+    </div>
+</div>
+</div>     
+</section>

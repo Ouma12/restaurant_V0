@@ -1,0 +1,74 @@
+/*section principale*/
+.main
+{
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;  
+    border-spacing: 0;      
+}
+/*Restaurants*/
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;  
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.delivery-items{
+    float: right;
+    margin:0px;
+    color: black;
+}
+.title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;   
+}
+p{
+    margin: 3px;
+    color: #BEBEBE;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img1 {
+    height: 35px; 
+    transform: translateX(-5px);
+    background: none;
+    border: none;
+    /* position: relative;  */
+  }
+.button1 {
+    float: right; 
+    font-size: 14px; 
+    background: none; 
+    color: #9DDD7B;  
+    letter-spacing: 1.35px; 
+    cursor: pointer;
+    border: none;
+    vertical-align: baseline;
+    margin-top: 2px;
+    
+  }
+  .button2 {
+    float: right; 
+    font-size: 14px; 
+    background: none; 
+    color: rgb(232,90,108);  
+    letter-spacing: 1.35px; 
+    cursor: pointer;
+    border: none;
+    vertical-align: baseline; 
+    margin-top:2px;  
+  }
+  .img1 {
+     margin-bottom: -4px;
+     background: transparent;
+    height: 19px; 
+    width: 19px;
+    background: none;
+    border: none;
+  }
+
+ 
